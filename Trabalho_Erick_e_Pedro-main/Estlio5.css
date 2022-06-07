@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Menu{
+    list-style: none;
+    padding: 0;
+    background-image: url(backmenu4.jpg);
+    margin: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #4b3621;
+}
+.Menu li{
+    display: inline;
+}
+.Menu li a{
+    color: white;
+    padding: 30px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    font-size: 18px;
+}
+.Menu li a:hover{
+    background-color: #4b3621;
+}
+.Menu h1{
+    color: white;
+    float: left;
+    padding: 15px;
+    font-size: 35px;
+}
+#LogoUNITINS{
+    width: 150px;
+    height: 100px;
+    float: right;
+}
+body{
+    background-image: url(BackAjudas2.jpg);
+    background-repeat: repeat;
+}
+main{
+    margin-top: 40px;
+    margin-left: 18%;
+    border: solid;
+    margin-right: 300px;
+    background: rgba(0,0,0,.5);
+    border-color: #231709;
+    padding: 5px;
+    padding-bottom: 40px;
+}
+.Principal h2{
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.Principal p{
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.Principal a{
+    color: white;
+}
+.Principal a:hover{
+    background-color: black;
+    transition: 1s;
+}
+.ImagensEX{
+    width: 90%;
+    height: 100%;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+footer {
+    background-color: #231709;
+    color: #FFF;
+    height: 50px;    
+    text-align: center;
+    line-height: 50px;
+    width: 100%;
+}
+footer a:hover{
+    background-color: black;
+    transition: 1s;
+}
+footer a{
+    color: white;
+}

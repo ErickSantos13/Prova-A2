@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Menu{
+    list-style: none;
+    padding: 0;
+    background-image: url(backmenu4.jpg);
+    margin: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #4b3621;
+}
+.Menu li{
+    display: inline;
+}
+.Menu li a{
+    color: white;
+    padding: 30px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    font-size: 18px;
+}
+.Menu li a:hover{
+    background-color: #4b3621;
+}
+.Menu h1{
+    color: white;
+    float: left;
+    padding: 15px;
+    font-size: 35px;
+}
+.Explica{
+    padding: 10px;
+    color: white;
+}
+.TituloExp{
+    padding: 20px;
+    color: white;
+}
+body{
+    background-image: url(BackLindo.jpg);
+    background-size: contain;
+    background-position: center;
+}
+.PrimeiroCont{
+    display: block;
+    width: 1000px;
+    height: auto;
+    border: groove;
+    margin-top: 20px;
+    background: rgba(0,0,0,.5);
+
+}
+.SegundoCont{
+    display: block;
+    width: 1000px;
+    height: auto;
+    border: groove;
+    margin-top: 20px;
+    background: rgba(0,0,0,.5);
+    margin-left: 180px;
+    margin-bottom: 30px;
+    margin-left: auto;
+}
+.TituloExp2{
+    padding: 20px;
+    color: white;
+}
+.ImgEx{
+    width: 750px;
+    height: 380px;
+    margin: 30px;
+}
+.Explica2{
+    padding: 10px;
+    color: white;
+}
+#LogoUNITINS{
+    width: 150px;
+    height: 100px;
+    float: right;
+}
+footer {
+    background-color: #231709;
+    color: #FFF;
+    height: 50px;    
+    text-align: center;
+    line-height: 50px;
+    width: 100%;
+}
+footer a:hover{
+    background-color: black;
+    transition: 1s;
+}
+footer a{
+    color: white;
+}
+
+

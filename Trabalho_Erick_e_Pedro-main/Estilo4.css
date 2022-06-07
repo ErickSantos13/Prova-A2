@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Menu{
+    list-style: none;
+    padding: 0;
+    background-image: url(backmenu4.jpg);
+    margin: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #4b3621;
+}
+body{
+    background-image: url(sla.jpg);
+    background-size: auto;
+    background-repeat: repeat;
+}
+.Menu li{
+    display: inline;
+}
+.Menu li a{
+    color: white;
+    padding: 30px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    font-size: 18px;
+}
+.Menu li a:hover{
+    background-color: #4b3621;
+}
+.Menu h1{
+    color: white;
+    float: left;
+    padding: 15px;
+    font-size: 35px;
+}
+.slider {
+    display: block;
+    height: 350px;
+    width: 90%;
+    margin-top: 20px;
+    position: relative;
+    margin: 20px;
+    padding-left: 10px;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    transition: 2s;
+}
+.slider input {
+    display: none;
+}
+.slider label {
+    background-color: #a9a9a9;
+    bottom: 10px;
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+main{
+    margin-top: 20px;
+    margin-left: 18%;
+    margin-right: 14%;
+    border: groove;
+    background: rgba(0,0,0,.5);
+    margin-bottom: 5%;
+}
+.Conteudo{
+    padding-top: 30px;
+    padding-left: 25px;
+}
+.Conteudo p{
+    padding-top: 10px;
+    color: white;
+}
+.Conteudo h2{
+    color: white;
+    padding-top: 25px;
+
+}
+.Imagens{
+    width: 85%;
+    height: 380px;
+    padding-top: 25px;
+}
+.slider2 {
+    display: block;
+    height: 350px;
+    width: 90%;
+    margin-top: 20px;
+    position: relative;
+    margin: 20px;
+}
+.slider2 li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider2 img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    transition: 2s;
+}
+.slider2 input {
+    display: none;
+}
+.slider2 label {
+    background-color: #a9a9a9;
+    bottom: 10px;
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider2 li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider2 li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider2 li:nth-child(3) label {
+    left: 70px;
+}
+.slider2 img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider2 li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+.ImagensEX{
+    width: 85%;
+    height: 390px;
+    padding-top: 25px;
+}
+#UltimaParte{
+    padding-bottom: 25px;
+}
+#LogoUNITINS{
+    width: 150px;
+    height: 100px;
+    float: right;
+}
+footer {
+    background-color: #231709;
+    color: #FFF;
+    height: 50px;    
+    text-align: center;
+    line-height: 50px;
+    width: 100%;
+}
+footer a:hover{
+    background-color: black;
+    transition: 1s;
+}
+footer a{
+    color: white;
+}

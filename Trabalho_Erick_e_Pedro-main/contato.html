@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="Icon.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Estilo3.css">
+    <title>Contato</title>
+</head>
+<body>
+    <nav class="Menu">
+        <h1>RPG De Mesa</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quemsomos.html">Quem Somos</a></li>
+            <li><a href="ajudas.html">Ajudas</a></li>
+            <li><a href="comojogar.html">Como Jogar</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><img id="LogoUNITINS" src="logo5.png" alt="Unitins Logo"></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 class="titulo">Fórmulario de Contato</h2>
+        <form action="" method="post" name="Formulario">
+            <label for="nome">Nome:</label> <input type="text" id="Nome" name="nome" required>
+            <label for="email">Email:</label> <input type="email" id="email" name="email"required>
+            <label for="telefone">Telefone:</label> <input type="number" id="telefone" name="telefone"required placeholder="(xx) xxxxx-xxxx">
+            <label for="Cidade">Cidade:</label required>
+            <select name="Cidade">
+                <option value="Cidade1">Palmas</option>
+                <option value="Cidade2">Goiania</option>
+                <option value="Cidade3">Araguatins</option>
+                <option value="Cidade4">Porto Alegre</option>
+                <option value="Cidade5">Porto Nacional</option>
+              </select>
+              <label for="Estado">Estado:</label required>
+              <select name="Estado">
+                <option value="Estado1">Tocantins</option>
+                <option value="Estado2">Goias</option>
+                <option value="Estado3">Rio Grande do Sul</option>
+              </select>
+              <label for="Sexo">Sexo: <input type="radio" name="Sexo">Feminino<input type="radio" name="Sexo">Masculino </label required>
+                <label for="Idade">Idade:</label> <input type="number" id="Idade" name="Idade" required max="100">
+                <label for="MotivoDoContato">Motivo do Contato:</label required>
+                <select name="MotivoDoContato">
+                    <option value="Motivo1">Duvida</option>
+                    <option value="Motivo2">Elogio</option>
+                    <option value="Motivo3">Outro</option>
+                  </select>
+                  <label for="msg">Mensagem:</label><textarea required id="msg" name="mensagem" cols="30" rows="6"></textarea>
+                  <button onclick="validar()" type="submit">Enviar Formlurário</button>
+                </form>
+    </main>
+    <footer>
+      <p>Desenvolvido por Erick Santos e Pedro Henrique na disciplina de <a href="https://www.unitins.br/nportal/sistemas-de-informacao-palmas">Desenvolvimento Front-End</a> – 01/06/2022 </p>
+  </footer>
+  <script src="Validacao.js"></script>
+
+</body>
